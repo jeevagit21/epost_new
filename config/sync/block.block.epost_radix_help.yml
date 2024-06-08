@@ -1,0 +1,22 @@
+uuid: b69124f8-7023-446f-bf9a-af11e8f79017
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - epost_radix
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: epost_radix_help
+theme: epost_radix
+region: header
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: c9440be7-02ec-4da7-a84a-6cd9ea2b2e05
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - epost_radix
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: epost_radix_messages
+theme: epost_radix
+region: header
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
